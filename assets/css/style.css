@@ -1,0 +1,267 @@
+/* global colours 
+
+rgba(241, 222, 128, 0.7) - Light yellow
+rgba(153, 241, 143, 0.7) - Light green
+rgba(128, 198, 241, 0.7) - Light blue
+rgba(241, 139, 128, 0.7) - Light red
+*/
+
+
+/* index page */
+
+/* logo image for the navbar */
+.logo {
+    height: 40px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between logo and text */
+    position: relative; /* Enable relative positioning */
+    vertical-align: middle; /* Align vertically with text */
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/inclusive-play.webp") no-repeat center center/cover;
+    position: relative;
+    opacity: 0.85;
+}
+
+#cover-text {
+    font-family: "Inclusive Sans", sans-serif;
+    background: linear-gradient(45deg, rgba(241, 222, 128, 0.7), rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7));
+    padding: 20px; /* Add some padding if needed */
+    border-radius: 10px; /* Optional: rounded corners */
+    color: #333; /* Text color for better contrast */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+
+}
+
+.mission {
+    background: linear-gradient(45deg,rgba(128, 198, 241, 0.7), rgba(241, 222, 128, 0.7),rgba(241, 139, 128, 0.7)) rgba(128, 198, 241, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* what is diversity and inclusion section */
+#what-is .card-img-top {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+#what-is .card {
+    margin-bottom: 1.5rem;
+}
+
+/* research section */
+
+#research {
+    background: linear-gradient(45deg, rgba(241, 139, 128, 0.7),rgba(128, 198, 241, 0.7),rgba(241, 222, 128, 0.7));
+    /* background-color: rgba(128, 198, 241, 0.7); */
+    padding: 20px;
+    border-radius: 8px;
+    padding-top: 80px; /* Adjust this value based on your fixed header height */
+    padding-bottom: 80px;
+    margin-top: -80px; /* Negative margin to offset the padding */
+}
+
+#research h2 {
+    margin-bottom: 20px;
+}
+#research p {
+    margin-bottom: 15px;
+}
+#research a {
+    display: block;
+    margin-bottom: 10px;
+    color: #0040ff;
+    text-decoration: none;
+}
+#research a:hover {
+    text-decoration: underline;
+}
+
+/* resources */
+
+#activities, #printables, #videos {
+    padding-top: 80px; /* Adjust this value based on your fixed header height */
+    margin-top: -80px; /* Negative margin to offset the padding */
+}
+
+/* activities section */
+#resources {
+    background: linear-gradient(45deg, rgba(241, 222, 128, 0.7), rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7));
+    padding: 20px;
+    border-radius: 8px;
+    padding-top: 80px; /* Adjust this value based on your fixed header height */
+    padding-bottom: 80px;
+    margin-top: -80px; /* Negative margin to offset the padding */
+}
+
+
+/* videos section */
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.embed-responsive .embed-responsive-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* footer section */
+.logo-footer {
+    height: 40px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between logo and text */
+    position: relative; /* Enable relative positioning */
+    margin-top: -15px; /* Move the logo upwards */
+    vertical-align: middle; /* Align vertically with text */
+    margin-bottom: 10px;
+}
+
+#social-networks {
+    text-align: end;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(12, 12, 12);
+}
+
+/* booking page */
+
+#booking-header {
+    height: 600px;
+    width: 100%;
+    background: url("../images/storytime.webp") no-repeat center center/cover;
+    position: relative;
+    /* opacity: 0.75; */
+}
+
+#booking-header #cover-text {
+    background: linear-gradient(45deg, rgba(241, 222, 128, 0.7), rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7));
+    padding: 20px; /* Add some padding if needed */
+    border-radius: 10px; /* Optional: rounded corners */
+    color: #333; /* Text color for better contrast */
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+#booking-form form {
+    background-color: rgba(241, 222, 128, 0.7); /* Light yellow background */
+    padding: 20px; /* Add some padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-bottom: 30px; /* Add space at the bottom */
+}
+
+#booking-form form input[type="text"],
+#booking-form form input[type="email"],
+#booking-form form input[type="tel"],
+#booking-form form input[type="radio"],
+#booking-form form select,
+#booking-form form textarea {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ccc; /* Border for better visibility */
+    padding: 10px; /* Padding for better usability */
+    border-width: 2px; /* Thick border */
+    width: 100%; /* Full width */
+    margin-bottom: 15px; /* Space between inputs */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+#booking-form form input[type="radio"] {
+    width: auto; /* Reset width for radio buttons */
+    margin-right: 10px; /* Space between radio button and label */
+}
+
+/* success page */
+
+#success-header {
+    height: 600px;
+    width: 100%;
+    background: url("../images/cultures.webp") no-repeat center center/cover;
+    position: relative;
+    opacity: 0.9;
+}
+
+#success-text {
+    background: linear-gradient(45deg, rgba(241, 222, 128, 0.7), rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7));
+    padding: 20px; /* Add some padding if needed */
+    border-radius: 10px; /* Optional: rounded corners */
+    color: #2b2b2b; /* Text color for better contrast */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+/* Media query for smaller devices to move the #booking-header image to the left slightly for more detail */
+@media (max-width: 576px) {
+    #booking-header {
+        background-position: center right 70%;
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    #resources, #books, #activities, #printables, #videos {
+        padding-top: 4rem; /* Adjust this value based on your fixed header height on mobile */
+        
+    }
+}
+
+/* Media query for medium devices and up */
+@media (min-width: 768px) {
+   
+    /* move the #booking-header image down slightly for more detail */
+    #booking-header {
+        background-position: center top 5px; /* Adjust the value as needed */
+    }
+
+     /* reduce success page image size */
+     .success.card-img-top {
+        width: 80%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+/* Media query for large an up devices to move the #booking-header image down slightly for more detail */
+@media (min-width: 1200px) {
+
+
+    /* move the #booking-header image down slightly for more detail */
+    #booking-header {
+        background-position: center top 5px; /* Adjust the value as needed */
+    }
+}
