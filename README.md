@@ -8,8 +8,10 @@
 </p>
 
 ## Introduction 
+<hr>
 
-For my first individual formative HTML, CSS & Bootstrap assignment for the Code Institute AI Augmented FullStack Bootcamp, I created a project based upon the goals and features proposed in Project 1: "Diversity & Inclusion".
+
+For my first individual formative HTML, CSS & Bootstrap assignment for the Code Institute AI Augmented FullStack Bootcamp, I created a project based upon the goals and features proposed in Project 1: "Diversity & Inclusion". Inspired by my real life experience of having a sibling with physical disabilities (Spina Biffida and Hydrocephalus), and how in their early years it was very apparent that they had some barriers to inclusion which may have had an impact on their world attitude and personal development. My aim was to create a website that supports parent and educators/teachers in guiding and empowering younger generations in fostering a more compassionate and empathetic view ensuring all people are welcome and feel they belong.
 
 Live project: <a href="https://gerbil1511.github.io/BrightFuturesProject/index.html" target="_blank">Bright Futures</a>
 
@@ -54,18 +56,51 @@ Live project: <a href="https://gerbil1511.github.io/BrightFuturesProject/index.h
 <p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 ## Project Outline
+<hr>
 
-Bright Futures is a fictional organisation dedicated to the providing parents and teachers with resources and information to support their conversations around diveristy and inclusion to children of primary school age. The webpage developed for this organisation provides clear and concise basic concepts, a list of tips, details about the organisation's mission statement, testimonials/reviews, a variety of resources and links to further research, contact details, plus an oppotunity to book a talk with a Bright Future's Diversity and Inclusion ambassador or to volunteer to become one. The webpage is well-designed and easy-to-navigate, appealing, responsive across multiple devices and adheres to accessibility standards.
+Bright Futures is a fictional organisation dedicated to providing parents and teachers with resources and information to support their conversations around diveristy and inclusion to children of primary school age. The webpage developed for this organisation provides clear and concise basic concepts, details about the organisation's mission statement, testimonials/reviews, a variety of resources and links to further research, contact details, plus an oppotunity to book a talk with a Bright Future's Diversity and Inclusion ambassador or to volunteer to become one. The webpage is well-designed and easy-to-navigate, appealing, responsive across multiple devices and adheres to accessibility standards.
 
 
 ## UX Design
 
+
 The following details are based upon the 5 planes of user experience (UX). The five planes of user experience (UX) are a framework for UX design that are stacked on top of each other, from abstract to concrete and credited to be developed by Jesse James Garrett, author of The Elements of User Experience.  
 
 
-## Strategy: The most abstract plane, where you balance business objectives with user needs. This is where you determine long-term and short-term goals, and what users will want from the product in the form of User Stories. 
+<ul>Strategy:</ul>
+
+
+
+The most abstract plane, where you balance business objectives with user needs. This is where you determine long-term and short-term goals, and what users will want from the product in the form of User Stories. 
+Business Goals:</u>
+- Increase bookings for ambassador talks.
+- Encourage community volunteer sign-ups.
+- Provide valuable resources on diversity and inclusivity.
+- Provide a clear mission statement emphasizing the importance of teaching diversity and inclusion to young children.
+
+
+
+User Needs:
+- Easy access to resources and activities.
+- Clear information on booking ambassadors and volunteering.
+- Engaging content that supports learning about diversity and inclusivity.
+
+
+
+User Personas:
+- Parents seeking educational resources for their children.
+- Teachers looking for classroom materials and guest speakers.
+- Community members interested in volunteering.
+
+
+
+Competitor Analysis:
+- The website differentiates itself from other resources by offering interactive talks and a community of ambassadors. For example, highlighting the unique approach of using stories, games, and activities in the talks.
+
+
 
 User Stories: 
+
 
 1: As a PARENT/TEACHER, I want to NAVIGATE EASILY through the website so that I can FIND THE INFORMATION I need.
 
@@ -86,6 +121,12 @@ User Stories:
 9: As a PROSPECTIVE VOLUNTEER/CUSTOMER, I want to read testimonials and reviews from other customers/volunteers, so I can gauge the experiences of others and feel more confident about booking a talk or becoming a volunteer.
 
 
+
+GitHub Project Board</u>
+
+I utilised the GitHub project boards to display the user needs and added tick boxes that I could return to, to check off as I progresed through the website,
+
+
 ![Bright Futres Project Board](/documentation/images/project-stories.png)
 
 <hr>
@@ -95,6 +136,9 @@ User Stories:
 
 ## Features
 
+The website aim is to address a user need, inthis case it was a need for a resources and research website that was specifically aimed at primary school age children.
+
+The business objective was to be a point of service, by offering a "give a talk" service to parents and teachers who wanted to support their children in understanding the concepts and issues around diversity and inclusion, and to encourge people to get invlved with being a speaker through a volunteer drive. It also wanted to offer ideas for resources to help parents and teachers get started in having these discussions with their children.
 
 #### Navigation, Links and Hero Section
 
@@ -135,7 +179,9 @@ Going forward I would add a search function, as that would also benfit the user 
 
 ### Wireframes
 
-I designed the website using wireframes by utilising the Balsamiq software [Balsamiq](https://balsamiq.com/) as part of the User Design Skeleton process. I initially designed with mobile first-in mind which led to the desktop design. The design for small tablets reflects the mobile design and large tablets reflect the desktop design. 
+I designed the website using wireframes by utilising the Balsamiq software [Balsamiq](https://balsamiq.com/) as part of the User Design Skeleton process. I initially designed with mobile first-in mind (as stated in the project learning outcomes) which then led to the desktop design. The design for small tablets reflects the mobile design and large tablets reflect the desktop design. 
+
+The final design used in the site is not too distant froom the original concept, there are some position changes and tweaks, and overall I'm happy with the final outcome.
 
 **Mobile Wireframe**
 ![Mobile Wireframe](/documentation/images/mobile-wireframe.png)
@@ -154,14 +200,18 @@ I designed the website using wireframes by utilising the Balsamiq software [Bals
 
 ### Main Colour Palette
 
-A selection of colours reflected the colourful nature f teh imagery throughout the site: 
+Copilot suggested the following selection of colours so that it reflected and complemented the colourful nature of the imagery throughout the site: 
 
 - rgba(241, 222, 128, 0.7) Light yellow
 - rgba(153, 241, 143, 0.7)  Light green
 - rgba(128, 198, 241, 0.7)  Light blue
 - rgba(241, 139, 128, 0.7)  Light red
 
-Also some Bootstrap colours were also used as borders around cards.
+![Colour Palette](/documentation/images/BF-colours.webp)
+
+It suggested that a linear gradient of 45 degrees using three colours would be appealing and, I quote "a fancy feature".
+
+I also added some Bootstrap colours such as "warning", "success", "info", "primary" as borders around cards in different sections of the site.
 
 ## Fonts
 
