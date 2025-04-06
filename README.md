@@ -1,7 +1,7 @@
 # Bright Futures
 
 <p align="center">
-  <img src="documentation/images/BF-Banner.webp" alt="Bright Futures - Project Banner">
+  <img src="documentation/images/Bright_Futures.png" alt="Bright Futures - Responsive devices image">
 </p>
 
 <p align="center">
